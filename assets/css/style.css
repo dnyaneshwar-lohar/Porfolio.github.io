@@ -227,12 +227,14 @@ input, button, select, optgroup, textarea {
 .education {
     position: relative;
     padding: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 
 .skills {
     position: relative;
     padding: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 .skills__content {
@@ -256,6 +258,48 @@ input, button, select, optgroup, textarea {
 
 .img__border {
     border: #0d6efd;
+}
+
+.internship {
+    position: relative;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.internship__content {
+    padding: 1rem;
+    margin-top: 0;
+}
+
+.internship__content p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+    .internship__content p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .projects__content {
+        margin-top: 5rem;
+    }
+}
+
+.internship__content .icon {
+    font-size: 1.5rem;
+    color: #9926f0;
+}
+
+@media (min-width: 992px) {
+    .internship__content .icon {
+        font-size: 2.5rem;
+    }
+}
+
+.internship__pic {
+    max-width: 100%;
 }
 
 .projects {
